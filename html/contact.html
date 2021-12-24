@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>content</title>
+   <style>
+      section img{
+         width: 100%;
+         height:200px;
+      }
+      form{
+         background-color: rgba(245, 116, 11, 0.938);
+         border: 1px solid ;
+         /* height  : 1000px; */
+         display: flex;
+         
+      }
+     #form{
+        padding-bottom:  50px;
+        padding-top:  50px;
+        background-color  :#7c9c6f2b;
+        width:60%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     #form li{
+        list-style: none;
+     }
+     #form li input{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 12px;
+        border-radius: 6px;
+        width: 80%;
+      font-size: 22px;
+        box-shadow:  6px 6px 4px rgba(238, 17, 17, 0.932);
+     }
+     .img{
+        box-shadow:  -30px 0px 20px rgb(238, 17, 17);
+        display : flex;
+        flex-direction: column;
+        align-items : center;
+        align-items: stretch;
+        /* justify-content: space-between; */
+     }
+    .img img{
+      box-shadow : 9px 9px 4px red;
+      /* text-align: center; */
+       border-radius:30px;
+       margin  : 12px;
+       width: 150px;
+       /* flex-wrap: wrap; */
+    }
+    .img img:hover{
+      box-shadow:  10px 10px 20px rgb(238, 17, 17);
+    }
+    li{
+       width: 100%;
+       margin-bottom: 20px;
+    }
+    #form H4{
+       margin  : 0;
+    }
+    .btn button:hover {
+      box-shadow : 4px 4px 4px red;
+       cursor  : pointer;
+       background-color : rgb(197, 64, 64);
+       
+    }
+
+    .btn button{
+       border-radius: 8px;
+       padding: 6px;
+       color : rgb(250, 250, 250);
+       background-color: rgb(33 47 73);
+    }
+
+
+    @media  screen and (max-width: 1000px) {
+      #form{
+        padding-bottom:  30px;
+        padding-top:  30px;
+        background-color  :#7c9c6f2b;
+        width:70%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+       section img{
+         width: 100%;
+         height:100px;
+      }
+      .img img{
+      box-shadow : 5px 9px 4px red;
+      /* text-align: center; */
+       border-radius:10px;
+       margin  : 12px;
+       width: 50px;
+       /* flex-wrap: wrap; */
+    }
+    
+
+      #form li input{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 6px;
+        border-radius: 6px;
+        width: 50%;
+      font-size: 12px;
+        box-shadow:  3px 6px 4px rgba(238, 17, 17, 0.932);
+     }
+    }
+   </style>
+</head>
+<body>
+   <section class="headimg">
+      <img src="/img/CONTACT1.jpg" alt="">
+   </section>
+   <form action="">
+      <div id="form">
+         <H4>NAME</H4>
+         <li> <input type="text" name="NAME" id=""></li>
+         <H4>MOBILE</H4>
+         <li> <input type="text" name="MOBILE" id=""></li>
+         <H4>EMAIL</H4>
+         <li> <input type="email" name="" id=""></li>
+         
+         <H4>PASSWORD</H4>
+         <li> <input type="password" name="" id=""></li>
+         <H4> YOU ARE NOT ROBOT</H4>
+         <li> <input type="checkbox" name="" id=""></li>
+         <div class="btn">
+            <button>SUBMIT NOW</button>
+         </div>
+      </div>
+      <div class="img">
+       
+         <a href="https://www.instagram.com/p/B98SiQDgMdMRVzh-1FFrDMAuU536K38axBxFhg0/?utm_medium=copy_link" target="_blank" id="" class="con">
+            <img src="/img/insta.jpg"  class  = "con"alt="">
+         </a>
+         <a href="https://www.facebook.com/amarraj.thonge" target="_blank" id="" class="con">
+            <img src="/img/Fb.jpg" class  = "con"alt="">
+         </a>
+         <a href="https://mobile.twitter.com/amarraj6767" id="" class="con" target="_blank">
+            <img src="/img/twitter.jpg" class  = "con"alt="">
+         </a>
+      
+         </a>
+      </div>
+   </form>
+</body>
+</html>
